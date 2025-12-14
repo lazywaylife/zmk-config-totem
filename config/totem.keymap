@@ -45,15 +45,6 @@
         };
     };
 
-    behaviors {
-        one: one {
-            compatible = "zmk,behavior-tap-dance";
-            label = "ONE";
-            #binding-cells = <0>;
-            bindings = <&kp NUMBER_1>, <&kp EXCLAMATION>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
