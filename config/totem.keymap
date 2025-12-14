@@ -64,10 +64,10 @@
 
         base_layer {
             bindings = <
-        &kp Q           &kp W           &kp E        &kp R             &kp T        &kp Y      &kp U   &kp I          &kp O    &kp P
-        &mt LEFT_WIN A  &mt LEFT_ALT S  &mt LCTRL D  &mt LEFT_SHIFT F  &kp G        &kp H      &kp J   &kp K          &kp L    &kp SEMI
-&trans  &kp Z           &kp X           &kp C        &kp V             &kp B        &kp N      &kp M   &kp COMMA      &kp DOT  &kp FSLH  &kp APOS
-                                        &kp DEL      &trans            &kp SPACE    &kp ENTER  &trans  &kp BACKSPACE
+            &kp Q           &kp W           &kp E        &kp R             &kp T        &kp Y      &kp U   &kp I          &kp O    &kp P
+            &mt LEFT_WIN A  &mt LEFT_ALT S  &mt LCTRL D  &mt LEFT_SHIFT F  &kp G        &kp H      &kp J   &kp K          &kp L    &kp SEMI
+&kp LSHIFT  &kp Z           &kp X           &kp C        &kp V             &kp B        &kp N      &kp M   &kp COMMA      &kp DOT  &kp FSLH  &kp APOS
+                                            &kp DEL      &trans            &kp SPACE    &kp ENTER  &trans  &kp BACKSPACE
             >;
         };
 
